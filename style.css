@@ -1,0 +1,62 @@
+body {
+    background-color: #aeb9e6f1;
+}
+
+.header {
+    height: 50%;
+    text-align: center;
+    color: white;
+    background-color: black;
+    text-transform: uppercase;
+}
+
+nav a {
+    color: seagreen;
+}
+
+#linkedin, #facebook, #instagram, #twitter {
+    width: 2%;
+
+}
+
+.footer {
+    height: 10%;
+    text-align: center;
+}
+
+
+/*mobile view*/
+@media (max-width: 569px){    
+    nav a {
+        display: none;
+    }
+
+    .img {
+        width: 100px;
+    }
+
+    .icon {
+        width: 25px;
+        
+    }
+}
+
+/*tablet view */
+@media (min-width: 570px) {
+    .icon {
+        display: none;
+    }
+ 
+    .img {
+        width: 500px;
+    }
+    
+    nav {
+        padding: 1em;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+   
+
+}
